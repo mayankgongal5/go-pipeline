@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	pi = 3.19
+	pi = 3.14
 )
 
 // areaofcircle calculates the area of a circle given its radius
