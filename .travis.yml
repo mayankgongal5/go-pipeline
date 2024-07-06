@@ -9,6 +9,7 @@ env:
 
 before_script:
   - echo 'Preparing to run tests and build'
+  - echo 'gaurav has forked this and made a pull request'
 
 script:
   - echo 'Running tests'
