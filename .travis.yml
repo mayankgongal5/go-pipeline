@@ -1,0 +1,20 @@
+language: go
+
+go:
+  - "1.17"
+
+env:
+  global:
+    - GO111MODULE=on
+
+before_script:
+  - echo 'Preparing to run tests and build'
+
+script:
+  - echo 'Running tests'
+  - go test ./...
+  - echo 'Building application'
+  - go build .
+
+after_success:
+  - echo 'Build and tests successful'
