@@ -12,5 +12,5 @@ jobs:
       run: ls -ltra
 
     - name: executing schell script
-      run: chmod +x assci-script.sh
-            ./assci-script.sh
+      run: bash assci-script.sh
+            
